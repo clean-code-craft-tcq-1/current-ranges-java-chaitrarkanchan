@@ -52,4 +52,8 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 Implement one failing test and at least one passing test:
 
+enter the name of a passing test:
+givenReadingsList_whenListNotEmpty_thenReturnFalse(),givenReadingsList_WhenListHasContinuousRanges_thenCompareExpectedWithComputed() 
 
+enter the name of a failing test:
+givenReadingsList_whenListIsEmpty_thenCompareExpectedWithComputed(), givenReadingsList_whenListHaveNullValues_thenCompareExpectedWithComputed()
